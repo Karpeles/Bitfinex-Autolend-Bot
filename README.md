@@ -42,7 +42,7 @@ The bot has a number of options, most of which allow you to tweak the bot's lend
 
 The report looks like this:
 
-[Bitfinex margin funding report screenshot](https://s13.postimg.org/6adzx7asn/image.png)
+![Bitfinex margin funding report screenshot](https://s13.postimg.org/6adzx7asn/image.png)
 
 The numbered columns at the top correspond to hours. Daily profit is also recorded at the end of each day (not visible in the screenshot).
 
