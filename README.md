@@ -18,8 +18,8 @@ The bot generates a report for each currency, allowing you to check your returns
 5. The bot comes with two preconfigured settings, one for lending USD and the other for SAN. These are found in the package as BFX-USD.php and BFX-SAN.php. Open the one you wish to lend your funds for, or if there is no file for your chosen currency, open one and save it as a new file, after changing the line ```$a->currency = 'usd'``` to be equal to the currency you'd like to lend, e.g. 'ltc'. This field is case insensitive
    * Enter your API key for the variable, ```$a->apiKey```
    * Enter your API secret for the variable, ```$a->apiSecret```
-   * Enter a file-path you'd like to save the report as for the variable, ```$a->reportFile```
-6. Your bot is now setup and can be run by executing the file, e.g. php BFX-USD.php
+   * Enter a file-path where you'd like the report to be saved for the variable, ```$a->reportFile```
+6. Your bot is now setup and can be run by executing the file, e.g. ```php BFX-USD.php```
 
 ## Cron
 
@@ -33,10 +33,10 @@ Where BFX-USD.php is the name of your bot configuration file. This will run that
 
 The bot has a number of options, most of which allow you to tweak the bot's lending in the search of maximum profits. You will find all of these predefined in the files BFX-USD.php and BFX-SAN.php
 
-1. tries - number of times to retry API requests that fail
-2. placeAboveLowestAsk - number of units to offer lending above the lowest ask, e.g. if the lowest ask is for 0.05 and placeAboveLowestAsk = 1,000,000 the bot will lend out at a rate where there are 1,000,000 units offered above the lowest ask. As a specific example if the lowest ask for USD is at 0.05 and placeAboveLowestAsk = 1,000,000, the bot will look 1 million dollars above the highest ask and offer at that rate. This is a mechanism, which is used to obtain more favourable rates
-3. minimumRate – the rate the bot will lend at will be set to this if calculate rate to offer at is below it
-4. periodSchedule – this allows you to set the number of days to offer funding for within a range of lending rates, e.g. 0.05 => 3 - all lending between 0.05 and 0.059r will be for 3 days; all lending lower than the lowest specified rate will be for the period of the lowest specified rate, e.g. if the lowsest specified rate is 0.04 => 2 lending between 0 and 0.39r will be for a period of 2 days all lending higher than the highest specified rate will be for the period of the highest specified rate, e.g. if the highest specified rate is 0.1 => 30 lending more than 0.1 will be for a period of 30 days
+1. ```tries``` - number of times to retry API requests that fail
+2. ```placeAboveLowestAsk``` - number of units to offer lending above the lowest ask, e.g. if the lowest ask is for 0.05 and placeAboveLowestAsk = 1,000,000 the bot will lend out at a rate where there are 1,000,000 units offered above the lowest ask. As a specific example if the lowest ask for USD is at 0.05 and placeAboveLowestAsk = 1,000,000, the bot will look 1 million dollars above the highest ask and offer at that rate. This is a mechanism, which is used to obtain more favourable rates
+3. ```minimumRate``` – the rate the bot will lend at will be set to this if calculate rate to offer at is below it
+4. ```periodSchedule``` – this allows you to set the number of days to offer funding for within a range of lending rates, e.g. 0.05 => 3 - all lending between 0.05 and 0.059r will be for 3 days; all lending lower than the lowest specified rate will be for the period of the lowest specified rate, e.g. if the lowsest specified rate is 0.04 => 2 lending between 0 and 0.39r will be for a period of 2 days all lending higher than the highest specified rate will be for the period of the highest specified rate, e.g. if the highest specified rate is 0.1 => 30 lending more than 0.1 will be for a period of 30 days
 
 ## Report
 
