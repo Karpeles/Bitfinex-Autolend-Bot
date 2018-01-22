@@ -38,6 +38,14 @@ The bot has a number of options, most of which allow you to tweak the bot's lend
 3. minimumRate – the rate the bot will lend at will be set to this if calculate rate to offer at is below it
 4. periodSchedule – this allows you to set the number of days to offer funding for within a range of lending rates, e.g. 0.05 => 3 - all lending between 0.05 and 0.059r will be for 3 days; all lending lower than the lowest specified rate will be for the period of the lowest specified rate, e.g. if the lowsest specified rate is 0.04 => 2 lending between 0 and 0.39r will be for a period of 2 days all lending higher than the highest specified rate will be for the period of the highest specified rate, e.g. if the highest specified rate is 0.1 => 30 lending more than 0.1 will be for a period of 30 days
 
+## Report
+
+The report looks like this:
+
+[Bitfinex margin funding report screenshot](https://s13.postimg.org/6adzx7asn/image.png)
+
+The numbered columns at the top correspond to hours. Daily profit is also recorded at the end of each day (not visible in the screenshot).
+
 ## Improvement
 
 The settings in the BFX-USD.php file have been tweaked so as to increase profit. However, for those who would like to gain even bettter returns it would be useful to also set the placeAboveLowestAsk variable on a sliding scale by rate. When rates go particularly high, above 0.1, it would be beneficial to offer with a higher placeAboveLowestAsk, as the current settings are not optimal for catching FOMO on rates that occasionally spike up to around 0.8. I don't have the time to change this at the moment.
