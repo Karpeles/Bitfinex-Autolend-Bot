@@ -31,7 +31,7 @@ Where BFX-USD.php is the name of your bot configuration file. This will run that
 
 ## Bot Options
 
-The bot has a number of options, most of which allow you to tweak the bot's lending in the search of maximum profits. You will find all of these predefined in the files BFX-USD.php and BFX-SAN.php
+The bot has a number of options, most of which allow you to tweak the bot's lending in the search for maximum profits. You will find all of these predefined in the files BFX-USD.php and BFX-SAN.php
 
 1. ```tries``` - number of times to retry API requests that fail
 2. ```placeAboveLowestAsk``` - number of units to offer lending above the lowest ask, e.g. if the lowest ask is for 0.05 and placeAboveLowestAsk = 1,000,000 the bot will lend out at a rate where there are 1,000,000 units offered above the lowest ask. As a specific example if the lowest ask for USD is at 0.05 and placeAboveLowestAsk = 1,000,000, the bot will look 1 million dollars above the highest ask and offer at that rate. This is a mechanism, which is used to obtain more favourable rates
