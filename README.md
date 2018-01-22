@@ -44,7 +44,7 @@ The report looks like this:
 
 ![Bitfinex margin funding report screenshot](https://s13.postimg.org/6adzx7asn/image.png)
 
-The numbered columns at the top correspond to hours. Daily profit is also recorded at the end of each day (not visible in the screenshot).
+The numbered columns at the top correspond to hours. The top figure in each hour cell is the percent of your funds that are being lent and the bottom figure is the average rate your funds are being lent at (including funds not being lent). Daily profit is also recorded at the end of each day (not visible in the screenshot).
 
 ## Improvement
 
