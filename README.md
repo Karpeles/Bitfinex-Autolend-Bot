@@ -8,7 +8,7 @@ The bot generates a report for each currency, allowing you to check your returns
 ## Installation
 
 1. Download or clone the Git
-..* It should work on any system including and above PHP5
+⋅⋅* It should work on any system including and above PHP5
 ..* It will require the PHP CURL extension
 ..* It will require the PHP XML extension
 2. Login to your Bitfinex account and navigate to the [API page](http://bitfinex.com/api)
