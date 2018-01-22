@@ -1,7 +1,7 @@
 # Bitfinex-Autolend-Bot
 PHP bot to manage currency lending on Bitfinex
 
-This bot facilitates margin lending of currencies on Bitfinex (https://www.bitfinex.com). It's aim is to enable you to extract the maximum return by automatically managing your lending based on simple rules. The rules provided by default have been used to offer USD funding at a annual return of around 27.5%, almost 10% more than various margin managing services.
+This bot facilitates margin lending of currencies on [Bitfinex](https://www.bitfinex.com). It's aim is to enable you to extract the maximum return by automatically managing your lending based on simple rules. The rules provided by default have been used to offer USD funding at a annual return of around 27.5%, almost 10% more than various margin managing services.
 
 The bot generates a report for each currency, allowing you to check your returns and improve your lending rules to increase profits. This report is designed to be created every hour. It reports the percentage of your funds being lent, the rate at which it is being lent (including funds not lent), daily profit and overall profit. Each hourly update is coloured to denote the extent your funds are being loaned out.
 
