@@ -7,7 +7,7 @@ The bot generates a report for each currency, allowing you to check your returns
 
 ## Installation
 
-1. Download or clone the Git
+1. Download or clone the Git.
 ⋅⋅⋅ It should work on any system including and above PHP5
 ⋅⋅⋅ It will require the PHP CURL extension
 ⋅⋅⋅ It will require the PHP XML extension
