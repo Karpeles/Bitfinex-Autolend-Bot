@@ -1,7 +1,7 @@
 # Bitfinex-Autolend-Bot
 PHP bot to manage currency lending on Bitfinex
 
-This bot facilitates margin lending of currencies on [Bitfinex](https://www.bitfinex.com). It's aim is to enable you to extract the maximum return by automatically managing your lending based on simple rules. The rules provided by default have been used to offer USD funding at a annual return of around 27.5%, almost 10% more than various margin managing services.
+This bot facilitates margin lending of currencies on [Bitfinex](http://bitfinex.whalepool.io). It's aim is to enable you to extract the maximum return by automatically managing your lending based on simple rules. The rules provided by default have been used to offer USD funding at a annual return of around 27.5%, almost 10% more than various margin managing services.
 
 The bot generates a report for each currency, allowing you to check your returns and improve your lending rules to increase profits. This report is designed to be created every hour. It reports the percentage of your funds being lent, the rate at which it is being lent (including funds not lent), daily profit and overall profit. Each hourly update is coloured to denote the extent your funds are being loaned out.
 
@@ -11,7 +11,7 @@ The bot generates a report for each currency, allowing you to check your returns
 ..a It should work on any system including and above PHP5
 ..b It will require the PHP CURL extension
 ..c It will require the PHP XML extension
-2. Login to your Bitfinex account and navigate to the [API page](http://bitfinex.whalepool.io)
+2. Login to your Bitfinex account and navigate to the [API page](http://bitfinex.com/api)
 3. Select 'Create New Key' from the bottom of the page and give it the following permissions ![API options](https://s14.postimg.org/jummsxmpt/Screenshot_at_2018-01-22_22-35-33.png)
 ..a Do not give it any other write permissions, as that will compromise your account if your API keys are obtained by a malicious individual
 4. Click 'Generate New API Key' and follow the security steps to obtain your API key and secret
