@@ -35,8 +35,8 @@ The bot has a number of options, most of which allow you to tweak the bot's lend
 
 1. ```tries``` - number of times to retry API requests that fail
 2. ```placeAboveLowestAsk``` - number of units to offer lending above the lowest ask, e.g. if the lowest ask is for 0.05 and placeAboveLowestAsk = 1,000,000 the bot will lend out at a rate where there are 1,000,000 units offered above the lowest ask. As a specific example if the lowest ask for USD is at 0.05 and placeAboveLowestAsk = 1,000,000, the bot will look 1 million dollars above the highest ask and offer at that rate. This is a mechanism, which is used to obtain more favourable rates
-3. ```minimumRate``` – the rate the bot will lend at will be set to this if calculate rate to offer at is below it
-4. ```periodSchedule``` – this allows you to set the number of days to offer funding for within a range of lending rates, e.g. 0.05 => 3 - all lending between 0.05 and 0.059r will be for 3 days; all lending lower than the lowest specified rate will be for the period of the lowest specified rate, e.g. if the lowsest specified rate is 0.04 => 2 lending between 0 and 0.39r will be for a period of 2 days all lending higher than the highest specified rate will be for the period of the highest specified rate, e.g. if the highest specified rate is 0.1 => 30 lending more than 0.1 will be for a period of 30 days
+3. ```minimumRate``` - the rate the bot will lend at will be set to this if calculate rate to offer at is below it
+4. ```periodSchedule``` - this allows you to set the number of days to offer funding for within a range of lending rates, e.g. 0.05 => 3 - all lending between 0.05 and 0.059r will be for 3 days; all lending lower than the lowest specified rate will be for the period of the lowest specified rate, e.g. if the lowsest specified rate is 0.04 => 2 lending between 0 and 0.39r will be for a period of 2 days all lending higher than the highest specified rate will be for the period of the highest specified rate, e.g. if the highest specified rate is 0.1 => 30 lending more than 0.1 will be for a period of 30 days
 
 ## Report
 
