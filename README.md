@@ -15,10 +15,10 @@ The bot generates a report for each currency, allowing you to check your returns
 3. Select 'Create New Key' from the bottom of the page and give it the following permissions ![API options](https://s14.postimg.org/jummsxmpt/Screenshot_at_2018-01-22_22-35-33.png)
    * Do not give it any other write permissions, as that will compromise your account if your API keys are obtained by a malicious individual
 4. Click 'Generate New API Key' and follow the security steps to obtain your API key and secret
-5. The bot comes with two preconfigured settings, one for lending USD and the other for SAN. These are found in the package as BFX-USD.php and BFX-SAN.php. Open the one you wish to lend your funds for, or if there is no file for your chosen currency, open one and save it as a new file, after changing the line $a->currency = 'usd'; to be equal to the currency you'd like to lend, e.g. 'ltc'. This field is case insensitive
-   * Enter your API key for the variable, $a→apiKey
-   * Enter your API secret for the variable, $a→apiSecret
-   * Enter a file-path you'd like to save the report as for the variable, $a->reportFile
+5. The bot comes with two preconfigured settings, one for lending USD and the other for SAN. These are found in the package as BFX-USD.php and BFX-SAN.php. Open the one you wish to lend your funds for, or if there is no file for your chosen currency, open one and save it as a new file, after changing the line ```$a->currency = 'usd'``` to be equal to the currency you'd like to lend, e.g. 'ltc'. This field is case insensitive
+   * Enter your API key for the variable, ```$a->apiKey```
+   * Enter your API secret for the variable, ```$a->apiSecret```
+   * Enter a file-path you'd like to save the report as for the variable, ```$a->reportFile```
 6. Your bot is now setup and can be run by executing the file, e.g. php BFX-USD.php
 
 ## Cron
